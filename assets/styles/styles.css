@@ -1,0 +1,66 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+img {
+  width: 150px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.con-borde {
+  border: 2px solid red;
+}
+
+.stickers {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.stickers div {
+  text-align: center;
+}
+
+/* botones e inputs */
+
+input[type="number"], select {
+  padding: 8px 12px;
+  border: 1.5px solid #888;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s;
+  margin-bottom: 8px;
+  background: #f9f9f9;
+}
+
+input[type="number"]:focus, select:focus {
+  border-color: #007bff;
+  background: #fff;
+}
+
+button {
+  padding: 10px 22px;
+  background: linear-gradient(90deg, #007bff 60%, #0056b3 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+  margin-top: 8px;
+}
+
+button:hover {
+  background: linear-gradient(90deg, #0056b3 60%, #007bff 100%);
+  transform: translateY(-2px) scale(1.03);
+}
+
+option {
+  padding: 8px;
+  font-size: 16px;
+}
+

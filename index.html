@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Desafíos JavaScript</title>
+  <link rel="stylesheet" href="./assets/styles/styles.css">
+</head>
+<body>
+
+  <!-- Desafío 1: Imagen con borde -->
+  <section>
+    <h2>Desafío 1: Click para agregar/quitar borde</h2>
+    <img id="imagen-borde" src="./assets/img/gato.jpg" alt="Imagen de gato borde">
+  </section>
+
+  <hr />
+
+  <!-- Desafío 2: Stickers -->
+  <section>
+    <h2>Desafío 2: Selección de Stickers</h2>
+    <div class="stickers">
+      <div>
+        <img src="./assets/img/sticker1.png" />
+        <input type="number" min="0" id="sticker1" />
+      </div>
+      <div>
+        <img src="./assets/img/sticker2.png" />
+        <input type="number" min="0" id="sticker2" />
+      </div>
+      <div>
+        <img src="./assets/img/sticker3.png" />
+        <input type="number" min="0" id="sticker3" />
+      </div>
+    </div>
+    <button id="verificar-stickers">Verificar</button>
+    <p id="resultado-stickers"></p>
+  </section>
+
+  <hr />
+
+  <!-- Desafío 3: Password con Select -->
+  <section>
+    <h2>Desafío 3: Validar Password</h2>
+    <select id="digit1">
+      <option value="">-</option>
+    </select>
+    <select id="digit2">
+      <option value="">-</option>
+    </select>
+    <select id="digit3">
+      <option value="">-</option>
+    </select>
+    <button id="verificar-password">Ingresar</button>
+    <p id="resultado-password"></p>
+  </section>
+
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
