@@ -1,6 +1,7 @@
 # 💻 Desafíos JavaScript DOM
 
 Este proyecto contiene **tres ejercicios independientes** desarrollados con JavaScript puro para practicar la manipulación del DOM, uso de condicionales (`if`, `else if`, `else`) y operadores lógicos.
+Puedes visitar la pagina en la siguiente URL: https://magicux.github.io/Condiciones/
 
 ---
 
